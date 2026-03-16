@@ -46,7 +46,7 @@ export default function HeroSection() {
 
           {/* Sağ taraf: Hero görseli */}
           <div className="hero__image">
-            <img src="/img/1.jpg" alt="ShopZone Kampanya" />
+            <img src={`${import.meta.env.BASE_URL}img/1.jpg`} alt="ShopZone Kampanya" />
           </div>
         </div>
       </section>
