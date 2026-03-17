@@ -1,21 +1,21 @@
 # ShopZone
 
-ShopZone, React ve Vite ile gelistirilmis bir e-ticaret web uygulamasidir.
-Urun verileri DummyJSON API'den alinir. Uygulama durumu ve kullaniciya ait bazi veriler localStorage ile saklanir.
+ShopZone, React ve Vite ile gelistirilmiş bir e-ticaret web uygulamasıdır.
+Ürün verileri DummyJSON API'den alınır. Uygulama durumu ve kullanıcıya ait bazı veriler localStorage ile saklanır.
 
-## Hakkinda
+## Hakkında
 
 Bu proje, tek sayfa uygulamasi (SPA) mimarisi ile calisir ve temel e-ticaret akislarini kapsar.
 
-- Urun listeleme, filtreleme ve arama
-- Urun detay goruntuleme
-- Sepet yonetimi
+- Ürün listeleme, filtreleme ve arama
+- Ürün detay görüntüleme
+- Sepet yönetimi
 - Favoriler
-- Siparis olusturma ve takip
-- Tema degisimi (acik/koyu)
-- Basit admin sayfalari
+- Sipariş olusturma ve takip
+- Tema degişimi (acik/koyu)
+- Basit admin sayfaları
 
-## Kullanilan Teknolojiler
+## Kullanılan Teknolojiler
 
 - React
 - Vite
@@ -25,7 +25,7 @@ Bu proje, tek sayfa uygulamasi (SPA) mimarisi ile calisir ve temel e-ticaret aki
 - DummyJSON API
 - localStorage
 
-## Proje Yapisi
+## Proje Yapısı
 
 ```text
 src/
@@ -74,32 +74,32 @@ Gereksinimler:
 - Node.js 18 veya uzeri
 - npm
 
-Adimlar:
+Adımlar:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Varsayilan gelistirme adresi: http://localhost:5173
+Varsayılan geliştirme adresi: http://localhost:5173
 
 ## Komutlar
 
-- `npm run dev`: Gelistirme sunucusunu baslatir.
-- `npm run build`: Uretim surumu icin derleme yapar.
-- `npm run preview`: Derlenmis surumu yerel olarak onizler.
+- `npm run dev`: Geliştirme sunucusunu baslatir.
+- `npm run build`: Üretim surumu icin derleme yapar.
+- `npm run preview`: Derlenmiş surumu yerel olarak önizler.
 - `npm run lint`: Kod stil ve kalite kontrolu yapar.
 
-## Demo Giris
+## Demo Giriş
 
-- Kullanici adi: `demo`
-- Sifre: `demo123`
+- Kullanıcı adı: `demo`
+- Şifre: `demo123`
 
-Not: Giris islemi DummyJSON kimlik dogrulama endpoint'i ile yapilir. Kayit akisinda demo amacli simulasyon bulunabilir.
+Not: Giriş işlemi DummyJSON kimlik doğrulama endpoint'i ile yapilir. Kayit akışında demo amaçlı simulasyon bulunabilir.
 
-## API Uclari
+## API Uçları
 
-Urun islemleri:
+Ürun işlemleri:
 
 - `GET /products?limit=&skip=`
 - `GET /products/{id}`
@@ -107,19 +107,19 @@ Urun islemleri:
 - `GET /products/category/{slug}`
 - `GET /products/search?q=`
 
-Kimlik dogrulama:
+Kimlik doğrulama:
 
 - `POST /auth/login`
 
 ## Rotalar
 
 - `/`: Ana sayfa
-- `/urunler`: Urun listesi
-- `/urun/:id`: Urun detay
+- `/urunler`: Ürün listesi
+- `/urun/:id`: Ürün detay
 - `/sepet`: Sepet
 - `/favoriler`: Favoriler
-- `/siparislerim`: Siparislerim
+- `/siparislerim`: Siparişlerim
 - `/admin`: Admin paneli
-- `/admin/products`: Admin urun yonetimi
+- `/admin/products`: Admin ürün yonetimi
 
 
